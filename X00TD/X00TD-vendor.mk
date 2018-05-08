@@ -38,8 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/asus/X00TD/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/asus/X00TD/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/asus/X00TD/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/asus/X00TD/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/asus/X00TD/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/asus/X00TD/proprietary/etc/permissions/vendor-qti-hardware-alarm.xml:system/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/asus/X00TD/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/asus/X00TD/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/asus/X00TD/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
