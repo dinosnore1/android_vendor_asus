@@ -462,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/ASUS_X00TD/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/asus/ASUS_X00TD/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/asus/ASUS_X00TD/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/asus/ASUS_X00TD/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
     vendor/asus/ASUS_X00TD/proprietary/vendor/etc/permissions/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     vendor/asus/ASUS_X00TD/proprietary/vendor/etc/permissions/asus.hardware.touchgesture.double_tap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/asus.hardware.touchgesture.double_tap.xml \
     vendor/asus/ASUS_X00TD/proprietary/vendor/etc/permissions/asus.hardware.touchgesture.launch_app.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/asus.hardware.touchgesture.launch_app.xml \
@@ -2840,7 +2839,6 @@ PRODUCT_PACKAGES += \
     android.hardware.cas@1.0-service \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
-    android.hardware.light@2.0-service \
     android.hardware.media.omx@1.0-service \
     android.hardware.power@1.0-service \
     hostapd.android \
@@ -2851,7 +2849,6 @@ PRODUCT_PACKAGES += \
     android.hardware.cas@1 \
     android.hardware.gatekeeper@1 \
     android.hardware.keymaster@3 \
-    android.hardware.light@2 \
     android.hardware.media.omx@1 \
     android.hardware.power@1 \
     vendor.qti.hardware.alarm@1 \
