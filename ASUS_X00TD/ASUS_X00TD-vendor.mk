@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/ASUS_X00TD/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/asus/ASUS_X00TD/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/asus/ASUS_X00TD/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/asus/ASUS_X00TD/proprietary/lib/android.frameworks.sensorservice@1.0.so:system/lib/android.frameworks.sensorservice@1.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib/android.hardware.light@2.0.so:system/lib/android.hardware.light@2.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -131,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/ASUS_X00TD/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/asus/ASUS_X00TD/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/asus/ASUS_X00TD/proprietary/lib64/android.frameworks.sensorservice@1.0.so:system/lib64/android.frameworks.sensorservice@1.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib64/android.hardware.light@2.0.so:system/lib64/android.hardware.light@2.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/ASUS_X00TD/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
