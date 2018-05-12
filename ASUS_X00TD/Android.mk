@@ -227,6 +227,50 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := AsusFaceUnlockService
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/AsusFaceUnlockService/AsusFaceUnlockService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CallEnhancement
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/CallEnhancement/CallEnhancement.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CallFeaturesSetting
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/CallFeaturesSetting/CallFeaturesSetting.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := FidoCryptoService
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/FidoCryptoService/FidoCryptoService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := QtiSystemService
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/app/QtiSystemService/QtiSystemService.apk
@@ -249,9 +293,64 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := SarSensorManager
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/SarSensorManager/SarSensorManager.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := SeempService
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/SeempService/SeempService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := WfdService
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/app/WfdService/WfdService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := btmultisim
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/btmultisim/btmultisim.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.qti.services.secureui
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.wbcserviceapp
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/com.quicinc.wbcserviceapp/com.quicinc.wbcserviceapp.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -304,6 +403,17 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := smcinvokepkgmgr
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/app/smcinvokepkgmgr/smcinvokepkgmgr.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := uceShimService
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/app/uceShimService/uceShimService.apk
@@ -318,6 +428,30 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := a4wpservice
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/priv-app/a4wpservice/a4wpservice.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.location
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -342,6 +476,18 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := wipowerservice
+LOCAL_MODULE_OWNER := asus
+LOCAL_SRC_FILES := proprietary/priv-app/wipowerservice/wipowerservice.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
